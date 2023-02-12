@@ -1,0 +1,2 @@
+ 04ca011222d8 /AirBnB_clone/tests/test_models/test_base_model.py
+     """Unittests for testing instantiation of the BaseModel class.""" class TestBaseModel_instantiation(unittest.TestCase): from models.base_model import BaseModel from time import sleep from datetime import datetime import unittest import models import os     TestBaseModel_to_dict     TestBaseModel_save     TestBaseModel_instantiation Unittest classes: """Defines unittests for models/base_model.py. #!/usr/bin/python3
